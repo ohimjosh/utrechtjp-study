@@ -1,0 +1,71 @@
+#header {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px;
+    margin-top: 35px;
+    margin-left: 35px;
+    
+    
+    
+    
+    
+   
+}
+
+
+#logo {
+    width: 100px;
+    margin: 0px;
+    
+    
+}
+.nav-container {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Top Nav */
+.top-nav {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+}
+
+.top-right {
+    display: flex;
+}
+
+/* Mid Nav */
+.mid-nav {
+    display: flex;
+    flex-direction: row;
+    border-top: solid;
+    border-color: #db0000;
+    border-width: 1px;
+}
+
+/* Bot Nav */
+.bot-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bot-left {
+    display: flex;
+}
+
+.bot-right {
+    display: flex;
+}
+
+
+
