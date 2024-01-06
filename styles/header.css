@@ -1,71 +1,113 @@
-#header {
-    flex: 1;
+.logo {
+    width: 100px;
+    margin: 0;
+}
+.wrapper {
+    background-color: red;
+}
+
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0px;
-    margin-top: 35px;
-    margin-left: 35px;
+    vertical-align: top;
+    margin: 2.5rem 0 0 2.5rem;
+}
+
+.nav-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.1em;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.bot-nav {
+    border-top: 1px solid;
+    flex-grow: 1;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.bot-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.bot-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+}
+
+.shop-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-nav div ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2.1em;
+}
+
+.shop-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.main-container {
+    background-color: aqua;
+    margin: 40px 50px 0 40px;
+    padding: 0;
+    display: flex;
+}
+
+.main-side {
+    writing-mode: vertical-rl;
+    width: 8.33333rem;
+    justify-content: center;
+}
+
+.shop-container {
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img{
+    width: 200px;
+    align-items: center;
     
+   
     
-    
-    
-    
+    flex: 1;
    
 }
 
-
-#logo {
-    width: 100px;
-    margin: 0px;
-    
-    
+.desc-container {
+    flex: 1;
 }
-.nav-container {
-    width: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-/* Top Nav */
-.top-nav {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.top-left {
-    display: flex;
-}
-
-.top-right {
-    display: flex;
-}
-
-/* Mid Nav */
-.mid-nav {
-    display: flex;
-    flex-direction: row;
-    border-top: solid;
-    border-color: #db0000;
-    border-width: 1px;
-}
-
-/* Bot Nav */
-.bot-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.bot-left {
-    display: flex;
-}
-
-.bot-right {
-    display: flex;
-}
-
-
-
